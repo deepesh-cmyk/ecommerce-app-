@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "https://ecommerce-frontend.onrender.com",
+  origin: "https://ecommerce-project-3qw8n3n6v-ecommerce-project2.vercel.app",
   credentials: true
 }));
 app.use(express.json());
