@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "https://ecommerce-project-3qw8n3n6v-ecommerce-project2.vercel.app",
+  origin: "https://ecommerce-project-jet-two.vercel.app",
   credentials: true
 }));
 app.use(express.json());
